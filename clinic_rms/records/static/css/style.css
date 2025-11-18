@@ -1,0 +1,157 @@
+/* ===============================
+   GLOBAL SETTINGS
+   =============================== */
+body {
+    background: #0E1116;
+    color: #EAF4F4;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+p, a, li {
+    letter-spacing: 0.3px;
+}
+
+.text-secondary {
+    color: #8A9BA8 !important;
+}
+
+/* ===============================
+   NAVBAR
+   =============================== */
+nav.navbar {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.navbar-brand {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #EAF4F4 !important;
+}
+
+.nav-link {
+    color: #EAF4F4 !important;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #00E0FF !important;
+}
+
+/* ===============================
+   GLASS CARD
+   =============================== */
+.glass-card {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 15px;
+    backdrop-filter: blur(12px);
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* ===============================
+   BUTTONS
+   =============================== */
+.btn-primary {
+    background: #00E0FF !important;
+    border: none !important;
+    color: #000 !important;
+    font-weight: 600;
+    padding: 8px 18px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background: #00BBD1 !important;
+}
+
+.btn-danger {
+    background: #F44336 !important;
+    border: none;
+}
+
+/* ===============================
+   TABLES
+   =============================== */
+table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table-dark {
+    background-color: rgba(255, 255, 255, 0.04);
+}
+
+.table-dark thead {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.table-dark tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+/* ===============================
+   DASHBOARD CARDS
+   =============================== */
+.dashboard-card {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px 20px;
+    transition: 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(10px);
+}
+
+.dashboard-card:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-5px);
+}
+
+/* ===============================
+   FORMS
+   =============================== */
+form input, form select, form textarea {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: #EAF4F4;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+}
+
+form input:focus, form select:focus {
+    outline: none;
+    border-color: #00E0FF;
+    box-shadow: 0 0 5px #00E0FF;
+}
+
+/* Labels */
+form label {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+/* ===============================
+   RESPONSIVE ADJUSTMENTS
+   =============================== */
+@media (max-width: 768px) {
+    .dashboard-card {
+        margin-bottom: 20px;
+    }
+
+    nav .container {
+        padding: 10px;
+    }
+}
